@@ -24,4 +24,12 @@ Converts values between units across three categories: length, weight, and tempe
 
 ## What I'd do differently
 
-- Would add input validation feedback earlier instead of just falling back to "Enter a valid number" — a minor thing but worth doing right from app 1.
+<!-- fill in after building -->
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+---
+
+Built by [Rishav Jha](https://rishavjha.com)

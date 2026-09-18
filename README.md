@@ -10,9 +10,11 @@ App 1 of 10 in a SwiftUI learning series.
 
 Converts values between units across three categories: length, weight, and temperature.
 
-## Screenshot
+## Screenshots
 
-![Unit Converter screenshot](screenshots/converter.png)
+<p float="left">
+  <img src="screenshots/converter.png" width="250" />
+</p>
 
 ## What I learned
 

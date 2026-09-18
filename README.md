@@ -4,7 +4,7 @@ After 4+ years building apps in React Native and Flutter, time to go native. Thi
 
 ## Goal
 
-Get comfortable with the absolute basics of SwiftUI: `@State`, `Picker`, `TextField`, layout with VStack/HStack/Form, and NavigationStack. No persistence, no networking — just enough to get a feel for how SwiftUI's declarative style compares to JSX and Flutter's widget tree.
+Get comfortable with the absolute basics of SwiftUI: `@State`, `Picker`, `TextField`, layout with VStack/HStack/Form, and NavigationStack. No persistence, no networking, just enough to get a feel for how SwiftUI's declarative style compares to JSX and Flutter's widget tree.
 
 ## What it does
 
@@ -18,7 +18,7 @@ Converts values between units across three categories: length, weight, and tempe
 
 ## What I learned
 
-- SwiftUI's `@State` feels closer to Flutter's `setState` than React's hooks — it's more implicit, the view just redraws when the backing value changes, no explicit re-render call.
+- SwiftUI's `@State` feels closer to Flutter's `setState` than React's hooks. It's more implicit, the view just redraws when the backing value changes, no explicit re-render call.
 - `Picker` with `.pickerStyle(.segmented)` and `.onChange` covers a lot of ground that would otherwise need custom components in RN/Flutter.
 - Enums as the backbone for units/categories (`CaseIterable`, `Identifiable`) map well to how I'd model something like this with TypeScript enums, but Swift's pattern matching in `switch` makes the conversion logic cleaner than an if/else chain would've been.
 
@@ -28,7 +28,7 @@ Converts values between units across three categories: length, weight, and tempe
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
 
 ---
 

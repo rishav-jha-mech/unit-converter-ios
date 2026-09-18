@@ -1,10 +1,10 @@
 # Unit Converter
 
-App 1 of 10 in a SwiftUI learning series.
+After 4+ years building apps in React Native and Flutter, time to go native. This is app 1 of 10, starting simple and working up to something genuinely complex by the end.
 
 ## Goal
 
-<!-- what you set out to learn with this app -->
+Get comfortable with the absolute basics of SwiftUI: `@State`, `Picker`, `TextField`, layout with VStack/HStack/Form, and NavigationStack. No persistence, no networking — just enough to get a feel for how SwiftUI's declarative style compares to JSX and Flutter's widget tree.
 
 ## What it does
 
@@ -18,8 +18,10 @@ Converts values between units across three categories: length, weight, and tempe
 
 ## What I learned
 
-<!-- fill in after building -->
+- SwiftUI's `@State` feels closer to Flutter's `setState` than React's hooks — it's more implicit, the view just redraws when the backing value changes, no explicit re-render call.
+- `Picker` with `.pickerStyle(.segmented)` and `.onChange` covers a lot of ground that would otherwise need custom components in RN/Flutter.
+- Enums as the backbone for units/categories (`CaseIterable`, `Identifiable`) map well to how I'd model something like this with TypeScript enums, but Swift's pattern matching in `switch` makes the conversion logic cleaner than an if/else chain would've been.
 
 ## What I'd do differently
 
-<!-- fill in after building -->
+- Would add input validation feedback earlier instead of just falling back to "Enter a valid number" — a minor thing but worth doing right from app 1.
